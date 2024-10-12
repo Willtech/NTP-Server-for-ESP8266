@@ -39,6 +39,6 @@ This program sets up an ESP8266 microcontroller to act as an NTP server, using a
 4. NTP Request Handling:
     -  When an NTP request is received, the program reads the request, prepares a response with the current time, and sends it back to the requester.
 
-Programmer Manager: Professor. Damian A. James Williamson 
+Programmer Manager: Professor. Damian A. James Williamson  
 "Assisted by Microsoft Copilot"
   
