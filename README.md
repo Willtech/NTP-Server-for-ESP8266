@@ -2,6 +2,11 @@
 ESP8266 NTP Server with DS3231 RTC
 This program sets up an ESP8266 microcontroller to act as an NTP server, using a DS3231 RTC module to maintain accurate time. The ESP8266 connects to a WiFi network, synchronizes time with an NTP server, and responds to NTP requests with the current time.
 
+## Recommended Configuration
+Set the NTP Server IP to be the local subnet broadcast address for example 192.168.1.255/24 
+
+Configure your NTP Client configuration to make the NTP request to that address. In reality you can have many standard network service running.
+
 ## Features
 -  WiFi Connectivity: Connects to a specified WiFi network.
 
@@ -39,6 +44,6 @@ This program sets up an ESP8266 microcontroller to act as an NTP server, using a
 4. NTP Request Handling:
     -  When an NTP request is received, the program reads the request, prepares a response with the current time, and sends it back to the requester.
 
-Programmer Manager: Professor. Damian A. James Williamson  
+Programmer Manager: Professor. Damian A. James Williamson Grad.  
 "Assisted by Microsoft Copilot"
   
